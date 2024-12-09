@@ -1,0 +1,54 @@
+# Diretório de saída do Maven
+/target/
+
+# Logs de build e execução
+*.log
+
+# Diretórios do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Diretórios do Eclipse/STS
+.project
+.classpath
+.settings/
+
+# Diretórios de cache do NetBeans
+/nbproject/private/
+/build/
+/dist/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configuração do sistema
+*.swp
+*.swo
+
+# Arquivos de configuração locais
+/local.properties
+/.env
+
+# Arquivos de compilação temporários
+*.class
+
+# Arquivos de backup
+*.bak
+*.old
+*~ 
+
+# Arquivos de pacotes compactados
+*.jar
+*.war
+*.ear
+
+# Diretórios de dependências locais do Maven
+.mvn/
+
+# Arquivos de cache do Maven
+.m2/
+
+# Logs de execução e erros
+hs_err_pid*

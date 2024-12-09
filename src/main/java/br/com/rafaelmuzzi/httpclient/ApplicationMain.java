@@ -39,7 +39,7 @@ public class ApplicationMain {
 		} catch (Exception ex) {
 			logger.log(Level.SEVERE, "Erro ao realizar requisição: {0}", ex.getMessage());
 			Thread.currentThread().interrupt();
-			throw new RuntimeException("O parâmetro do id deve ser maior que zero.");
+			throw new RuntimeException("Erro realizar requisição: " + ex.getMessage());
 		}
 	}
 	
